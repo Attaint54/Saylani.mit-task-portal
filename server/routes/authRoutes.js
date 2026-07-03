@@ -10,7 +10,7 @@ const {
 } = require('../controllers/authController');
 const { protect } = require('../middleware/auth');
 const validate = require('../middleware/validate');
-const upload = require('../middleware/upload');
+const upload = reque('../middleware/upload');
 
 router.post(
   '/register',
